@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Yasin Hamiza",
+  title: "Hi all, I'm Yasin",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "#", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/yasin315",
+  linkedin: "https://www.linkedin.com/in/yasin-h-a3205b282",
+  gmail: "yasinhamza315@gmail.com",
+  gitlab: "https://gitlab.com/yasin315",
+  facebook: "#",
+  medium: "#",
+  stackoverflow: "#",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,7 +52,7 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -72,10 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    {
+    /*{
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
-    },
+    },*/
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -87,11 +87,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
+    }/*,
     {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
-    },
+    }*/,
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -100,7 +100,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
+    /*{
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -115,7 +115,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    }*/
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +126,30 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "Gondar University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelor of Science in Electrical and Computer Engineering",
+      duration: "September 2018 - April 2020",
+      desc: "Built award-winning projects in traffic control and energy systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed traffic control and energy systems projects",
+  "Won 1st place in a national engineering competition",
+  "Collaborated with university researchers on innovative solutions",
+  "Contributed to award-winning research projects"
+
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Admas University",
       logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Bachelor of Science in Busines Managment",
+      duration: "September 2019 - April 2023",
+      desc: "Studied core business management principles with a focus on leadership, finance, and operations.",
+      descBullets: [
+        "Gained expertise in business strategy and operations",
+    "Developed skills in financial management and analysis",
+    "Completed projects in organizational leadership and management"
+      ]
     }
   ]
 };
@@ -163,7 +170,16 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Digital Electronics",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Graphics Design",
+      progressPercentage: "65%"
     }
+
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,30 +190,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Supervisor",
+      company: "Emarosh Engineering",
+      companylogo: require("./assets/images/emarosh.jpeg"),
+      date: "Sep 2023 – Nov 2023",
+      desc: "Managed and supervised telecom product operations, while delivering innovative solutions for construction projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Created innovative solutions for construction industry needs",
+    "Ensured efficient project management and product delivery"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Electronics Trainer & Technician",
+      company: "Self Employed",
+      companylogo: require("./assets/images/electronics.png"),
+      date: "Nov 2021 – May 2022",
+      desc: "Provided training in electronics while offering technical repair and maintenance services for various electronic devices.",
+      descBullets: [
+        "Trained individuals in electronics fundamentals and repair techniques",
+    "Repaired and maintained a variety of electronic devices",
+    "Developed custom electronic solutions for client needs"]
+    }/*,
     {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    }*/
   ]
 };
 
@@ -206,37 +226,67 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Innovative Engineering Solutions",
+  subtitle: "Showcasing a Selection from Over 35+ Projects in Electrical and Software Engineering",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
+      image: require("./assets/images/school.jpeg"),
+      projectName: "School Control System",
+      projectDesc: "An advanced device to manage school operations, track student attendance, and enhance communication with features like exam result access, lighting control, and campus phones.",
+      /*footerLink: [
         {
           name: "Visit Website",
           url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
-      ]
+      ]*/
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
+      image: require("./assets/images/trafic.png"),
+      projectName: "Traffic Control System",
+      projectDesc: "A safety-focused system that prevents traffic accidents by controlling vehicle speeds and integrating with smart wearables to detect pedestrians, reducing collisions.",
+     /* footerLink: [
         {
           name: "Visit Website",
           url: "http://nextu.se/"
         }
-      ]
+      ]*/
+    },{
+      image: require("./assets/images/electric.jpeg"),
+      projectName: "Electric Line Fault Locator",
+      projectDesc: "An advanced diagnostic tool designed to precisely locate faults in extensive electrical lines, such as 200 km long, reducing time and effort needed for repairs by identifying the exact fault location.",
+      /*footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]*/
+    },{
+      image: require("./assets/images/light.png"),
+      projectName: "Self-Charging Light for Rural Areas and Schools",
+      projectDesc: "A versatile, self-sustaining light system designed to provide reliable energy for rural areas and schools, offering essential lighting and power where traditional electricity sources are unavailable or unreliable.",
+      /*footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]*/
+    },{
+      image: require("./assets/images/phone.jpeg"),
+      projectName: "Network-Free Community Phone Solution",
+      projectDesc: "Created a wireless phone system that enables communication in areas without network infrastructure. This solution offers a cost-free way for communities to stay connected, overcoming local connectivity issues.",
+      /*footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]*/
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -252,51 +302,48 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Gold Medal for Outstanding Innovative Work on Signal WiFi",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Awarded a gold medal and certificate for outstanding innovative work on Signal WiFi in 2018. This recognition highlighted exceptional contributions to wireless communication technology.",
+      image: require("./assets/images/mintlogo.jpeg"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
+          url: "#"
+        }/*,
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: "#"
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
+          url: "#"
+        }*/
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "1st Place in the Region for Educational Contributions",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Honored with 1st place in the region for outstanding performance and significant contributions to educational activities during the 2017 fiscal year. This accolade recognized exceptional impact and dedication to enhancing educational effectiveness.",
+      image: require("./assets/images/educationlogo.jpeg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "#"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "2nd Place in National Science Fair",
+      subtitle: "Received recognition for 2nd place in the Engineering project category at the National Science Fair competition. This award was given in collaboration with STEM Synergy, during the third round of the competition held on November 10, 2018, at the Ministry of Innovation and Technology.",
+      image: require("./assets/images/stemlogo.jpeg"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Certification", url: ""}
+        
       ]
     }
   ],
@@ -318,13 +365,13 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "#",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +390,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +403,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,25 +412,25 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+49 176 45294725",
+  email_address: "Yasinhamza315@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
